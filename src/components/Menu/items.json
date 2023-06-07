@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "title": "Games",
+    "link": "/games"
+  },
+  {
+    "id": 3,
+    "title": "About",
+    "link": "/about"
+  },
+  {
+    "id": 4,
+    "title": "Contacts",
+    "link": "/contacts"
+  },
+  {
+    "id": 5,
+    "title": "Contafddfvdvdfvcts",
+    "link": "/contacts"
+  }
+]

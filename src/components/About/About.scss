@@ -1,0 +1,21 @@
+@import '../../utils/variables';
+@import '../../utils/mixins';
+
+.about {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 80px;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 63px;
+    height: 56px;
+    background-image: url('../../images/kite.png');
+  }
+
+  @include onTablet {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}

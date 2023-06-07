@@ -1,0 +1,78 @@
+@import './variables';
+
+@mixin onMobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin onTablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin onDesktop {
+  @media ((min-width: 769px) and (max-width: 992px)) {
+    @content;
+  }
+}
+
+@mixin buttonsStyle {
+  display: inline-flex;
+  padding: 26px 34px;
+
+  background-color: $activeColor;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: $mediumFont;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../public/img/arrow.svg');
+    margin-left: 10px;
+    transform: translateX(0px);
+    transition: all 0.2s ease;
+
+    @include onTablet() {
+      width: 24px;
+      height: 16px;
+      margin-left: 5px;
+    }
+
+    @include onMobile {
+      width: 22px;
+      height: 15px;
+      margin-left: 5px;
+    }
+  }
+
+  &:hover {
+    background-color: $activeColorHover;
+    &::after {
+      transform: translateX(3px);
+    }
+  }
+
+  @include onTablet() {
+    font-size: 16px;
+    padding: 20px 30px;
+    line-height: 16px;
+  }
+
+  @include onMobile {
+    font-size: 15px;
+    padding: 15px 20px;
+    line-height: 15px;
+  }
+}

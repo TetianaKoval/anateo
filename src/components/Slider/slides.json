@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "img/slide1.png",
+    "title": "The Safe Place",
+    "description": "This is a dramatic deep social point&click adventure about tough childhood and self-sacrifice"
+  },
+  {
+    "id": 2,
+    "image": "img/slide2.png",
+    "title": "The Kite",
+    "description": "dramatic deep social point&click"
+  },
+  {
+    "id": 3,
+    "image": "img/slide3.png",
+    "title": "Little Kite",
+    "description": "childhood and self-sacrifice"
+  },
+  {
+    "id": 4,
+    "image": "img/slide4.png",
+    "title": "Octave",
+    "description": "point&click adventure about tough childhood and self-sacrifice"
+  }
+]

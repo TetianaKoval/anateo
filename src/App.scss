@@ -1,0 +1,29 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+
+
+body {
+  background-color: $bgColor;
+  font-family: $lightFont;
+  font-size: 18px;
+  line-height: 30px;
+
+  @include onMobile {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  @include onMobile {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @include onMobile() {
+  }
+}
