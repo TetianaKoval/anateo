@@ -10,7 +10,7 @@ export const Menu = () => {
     <div className="menu header__menu">
       <div className="container menu__container">
         <div className="menu__logo">
-          <img src="/img/logo_w.png" alt="" />
+          <img src="img/logo_w.png" alt="" />
         </div>
         <div
           className={classNames('menu__burger', {active: menuActive})}
