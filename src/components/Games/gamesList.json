@@ -3,7 +3,7 @@
     "id": 1,
     "name": "The Safe Place",
     "description": "The game is a dramatic deep social point&click adventure about tough childhood and self-sacrifice.",
-    "image": "../img/games/the_safe_place/safeplace_ava.png",
+    "image": "img/games/the_safe_place/safeplace_ava.png",
     "year": 2023,
     "link": "/"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Repentant",
     "description": "The game is a dramatic point&click adventure about a criminal who is trying to atone for the sins of his past.",
-    "image": "../img/games/repentant/Repentant_ava.png",
+    "image": "img/games/repentant/Repentant_ava.png",
     "year": 2018,
     "link": "/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Little Kite",
     "description": "Dramatic adventure about Mary and her son Andrew. (The Kite remake). The game about one tragic evening for a struggling family, when emotions and tensions are simply too high to manage.",
-    "image": "../img/games/little_kite/littlekite_ava_big.jpg",
+    "image": "img/games/little_kite/littlekite_ava_big.jpg",
     "year": 2017,
     "link": "/"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Octave",
     "description": "Horror adventure. Dark woods, monsters, paranormal activity. You are dragged into a dark forest, but on the verge of death, you are mysteriously saved from your killer by a someone or something.",
-    "image": "../img/games/octave/octave_ava.png",
+    "image": "img/games/octave/octave_ava.png",
     "year": 2016,
     "link": "/"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "The Kite",
     "description": "Dramatic adventure about Mary and her son Andrew. The game highlights the problems of a struggling family.",
-    "image": "../img/games/the_kite/thekite_ava.png",
+    "image": "img/games/the_kite/thekite_ava.png",
     "year": 2012,
     "link": "/"
   }
