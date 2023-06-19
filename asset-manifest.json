@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/anateo/static/css/main.b7e09b09.css",
-    "main.js": "/anateo/static/js/main.21cc8aa1.js",
+    "main.css": "/anateo/static/css/main.c042a73d.css",
+    "main.js": "/anateo/static/js/main.eb1428a9.js",
     "static/media/Prompt-Bold.ttf": "/anateo/static/media/Prompt-Bold.7fdea824c0e8a36f26d5.ttf",
     "static/media/Prompt-Medium.ttf": "/anateo/static/media/Prompt-Medium.13aa547876aaa510c372.ttf",
     "static/media/Prompt-Regular.ttf": "/anateo/static/media/Prompt-Regular.a8979f5fddba897421a7.ttf",
     "static/media/Prompt-Light.ttf": "/anateo/static/media/Prompt-Light.005f2ed2eec228056916.ttf",
     "static/media/SquadaOne-Regular.ttf": "/anateo/static/media/SquadaOne-Regular.eb3dd758d9c10a5e7277.ttf",
+    "static/media/Instagram.svg": "/anateo/static/media/Instagram.fdbb561fc2a1424db324.svg",
+    "static/media/Itch.svg": "/anateo/static/media/Itch.9e66bd684b1d2baf5f35.svg",
+    "static/media/Steam.svg": "/anateo/static/media/Steam.2ad6d2bff3d8c473bfc3.svg",
+    "static/media/Twitter.svg": "/anateo/static/media/Twitter.3159b132d0dfafd63837.svg",
+    "static/media/Youtube.svg": "/anateo/static/media/Youtube.8f548fd0225352257cec.svg",
+    "static/media/Facebook.svg": "/anateo/static/media/Facebook.93b4cfd103ccab716528.svg",
+    "static/media/Soundcloud.svg": "/anateo/static/media/Soundcloud.479a3541fdadc2502de3.svg",
+    "static/media/Twitch.svg": "/anateo/static/media/Twitch.ca485d5d82538ff37ed8.svg",
     "index.html": "/anateo/index.html",
     "static/media/arrow.svg": "/anateo/static/media/arrow.703268919aec9f80dcb1.svg",
-    "main.b7e09b09.css.map": "/anateo/static/css/main.b7e09b09.css.map",
-    "main.21cc8aa1.js.map": "/anateo/static/js/main.21cc8aa1.js.map"
+    "main.c042a73d.css.map": "/anateo/static/css/main.c042a73d.css.map",
+    "main.eb1428a9.js.map": "/anateo/static/js/main.eb1428a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e09b09.css",
-    "static/js/main.21cc8aa1.js"
+    "static/css/main.c042a73d.css",
+    "static/js/main.eb1428a9.js"
   ]
 }
