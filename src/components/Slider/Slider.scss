@@ -82,6 +82,7 @@
 
   &__button {
     @include buttonsStyle;
+    @include blueButtonsStyle;
   }
 }
 
@@ -90,4 +91,42 @@
  {
   opacity: 50%;
   font-size: 18px !important;
+}
+
+
+.swiper-pagination {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  bottom: 100px;
+  height: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  &-bullet {
+    
+    &:before {
+      transition: all 0.5s ease;
+      content: '';
+      display: block;
+      width: 2px;
+      height: 2px;
+      background-color: rgba(#fff, 1);
+      border: 2px solid rgba(#fff, 0);
+      border-radius: 5px;
+    }
+
+    &-active {
+      transition: all 0.5s ease;
+      &:before {
+        width: 5px;
+        height: 5px;
+        border: 2px solid #fff;
+        background-color: rgba(#fff, 0);
+      }
+    }
+  }
 }

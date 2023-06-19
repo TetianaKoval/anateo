@@ -1,34 +1,16 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, EffectFade } from 'swiper';
+import { Navigation, Autoplay, Pagination, EffectFade } from 'swiper';
 import './Slider.scss'
 import 'swiper/css/navigation';
 
 import 'swiper/css';
 import "swiper/css/effect-fade";
 
-// import { motion } from 'framer-motion';
-
-// const animation = {
-//   hidden: {
-//     y: 100,
-//     opacity: 0,
-//   },
-//   visible: {
-//     y: 0,
-//     opacity: 1,
-//   }
-// }
-
-
-
-
 export const Slider = ({ slides }) => {
   return (
     <div
       className="swiper-container"
-      // initial="hidden"
-      // whileInView="visible"
     >
       <Swiper
         style={{
@@ -36,11 +18,19 @@ export const Slider = ({ slides }) => {
           "--swiper-pagination-color": "#fff",
         }}
         className="slider mySwiper"
-        modules={[Navigation, Autoplay, EffectFade]}
+        modules={[Navigation, Autoplay, Pagination, EffectFade]}
         centeredSlides={true}
         autoplay={{ delay: 5000 }}
         effect={"fade"}
         navigation
+        pagination={{
+          clickable: true,
+          renderBullet: (index, className) => {
+            return (
+              `<span class="${className}"></span>`
+            );
+          }
+        }}
         spaceBetween={0}
         slidesPerView={1}
         onSlideChange={(swiper) => {

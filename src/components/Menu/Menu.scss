@@ -4,6 +4,9 @@
   top: 20px;
   z-index: 3;
   width: 100%;
+  background-image: linear-gradient(to bottom, rgba($bgColor, 1), rgba($bgColor, 1), rgba($bgColor, 0.8), rgba($bgColor, 0));
+  height: 0;
+  transition: all 0.3s ease;
 
   &__container {
     display: flex;
@@ -17,6 +20,7 @@
     height: 90px;
     overflow: hidden;
     margin-right: 20px;
+    transition: all 0.3s ease;
 
     @include onTablet {
       width: 210px;
@@ -94,5 +98,17 @@
 
       }
     }
+  }
+}
+
+.menuOnContent {
+  background-image: linear-gradient(to bottom, rgba($bgColor, 1), rgba($bgColor, 1), rgba($bgColor, 0.8), rgba($bgColor, 0));
+  height: 150px;
+  top: 0;
+
+  & .menu__logo {
+    width: 180px;
+    height: 70px;
+    padding-top: 10px;
   }
 }

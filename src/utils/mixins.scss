@@ -22,7 +22,7 @@
   display: inline-flex;
   padding: 26px 34px;
 
-  background-color: $activeColor;
+
   font-size: 18px;
   line-height: 18px;
   font-family: $mediumFont;
@@ -74,5 +74,17 @@
     font-size: 15px;
     padding: 15px 20px;
     line-height: 15px;
+  }
+}
+
+@mixin blueButtonsStyle {
+  background-color: $activeColor;
+}
+@mixin whiteButtonsStyle {
+  border: 2px solid #fff;
+  padding: 22px 30px;
+
+  &:hover {
+    border: 2px solid $activeColor;
   }
 }

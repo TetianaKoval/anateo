@@ -1,0 +1,47 @@
+@import './../../utils/variables';
+
+.footer {
+  color: #929292;
+  padding: 40px 0 10px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__email {
+    margin-bottom: 40px;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $activeColor;
+    position: relative;
+    margin-left: 5px;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 0%;
+      height: 2px;
+      background-color: $activeColor;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
