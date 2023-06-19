@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anateo/static/css/main.c042a73d.css",
-    "main.js": "/anateo/static/js/main.eb1428a9.js",
+    "main.js": "/anateo/static/js/main.0abb48ae.js",
     "static/media/Prompt-Bold.ttf": "/anateo/static/media/Prompt-Bold.7fdea824c0e8a36f26d5.ttf",
     "static/media/Prompt-Medium.ttf": "/anateo/static/media/Prompt-Medium.13aa547876aaa510c372.ttf",
     "static/media/Prompt-Regular.ttf": "/anateo/static/media/Prompt-Regular.a8979f5fddba897421a7.ttf",
@@ -18,10 +18,10 @@
     "index.html": "/anateo/index.html",
     "static/media/arrow.svg": "/anateo/static/media/arrow.703268919aec9f80dcb1.svg",
     "main.c042a73d.css.map": "/anateo/static/css/main.c042a73d.css.map",
-    "main.eb1428a9.js.map": "/anateo/static/js/main.eb1428a9.js.map"
+    "main.0abb48ae.js.map": "/anateo/static/js/main.0abb48ae.js.map"
   },
   "entrypoints": [
     "static/css/main.c042a73d.css",
-    "static/js/main.eb1428a9.js"
+    "static/js/main.0abb48ae.js"
   ]
 }
